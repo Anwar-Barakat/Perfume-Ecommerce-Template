@@ -9,5 +9,8 @@ img {
 }
 
 :root {
-  --bg-color: "#000000";
+  --bg-black-color: "#000000";
+  --bg-color: #ecfdff;
 }
+
+@import 'header'

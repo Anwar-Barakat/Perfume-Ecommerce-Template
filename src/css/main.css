@@ -9,5 +9,10 @@ img {
 }
 
 :root {
-  --bg-color: "#000000";
+  --bg-black-color: "#000000";
+  --bg-color: #ecfdff;
+}
+
+#header {
+  background-color: var(--bg-color);
 }/*# sourceMappingURL=main.css.map */
