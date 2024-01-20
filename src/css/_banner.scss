@@ -1,0 +1,39 @@
+#banner {
+  width: 100%;
+  background-color: var(--bg-first-color);
+  padding: 120px 0;
+  .content {
+    h1 {
+      font-size: 3.2rem;
+    }
+  }
+  .image {
+    img {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: auto;
+    }
+  }
+  .owl-nav {
+    display: flex;
+    background-color: #fff;
+    padding: 1rem 64px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 2rem;
+  }
+  .owl-next,
+  .owl-prev {
+    span {
+      &:hover {
+        background-color: #fff;
+        color: #121212;
+      }
+    }
+  }
+  .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #fff;
+  }
+}
