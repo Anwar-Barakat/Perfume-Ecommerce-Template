@@ -1,17 +1,18 @@
 #featured {
   width: 100%;
-  padding: 120px 0;
-  .title {
-    h2 {
-      text-align: center;
-      color: var(--black-color);
-    }
-  }
   .item {
     background-color: var(--bg-secondary-color);
     padding: 42px 15px;
     max-height: 300px;
     height: 100%;
+    &:hover {
+      .content {
+        padding: 10px 0;
+      }
+    }
+    .content {
+      transition: 0.3s all ease-in-out;
+    }
     h6 {
       font-size: 13px;
       font-weight: normal;
@@ -21,7 +22,7 @@
       max-width: 200px;
     }
     .featured-btn {
-      color: #ff3368;
+      color: var(--color-pink);
       display: inline-block;
       font-size: 1rem;
       font-weight: bold;

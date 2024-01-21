@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $("#main-banner").owlCarousel({
     loop: true,
     margin: 10,
     dots: false,
@@ -16,6 +16,26 @@ $(document).ready(function () {
       },
       1000: {
         items: 1,
+      },
+    },
+  });
+  $("#categoryProducts").owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 4,
       },
     },
   });

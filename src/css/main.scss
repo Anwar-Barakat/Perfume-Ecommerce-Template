@@ -13,28 +13,26 @@ a {
   text-decoration: none;
 }
 
-:root {
-  --black-color: "#000000";
-  --bg-first-color: #ecfdff;
-  --bg-secondary-color: #f8fbff;
+.title {
+  text-align: center;
+  color: var(--color-black);
 }
 
-#banner {
-  width: 100%;
-  background-color: var(--bg-first-color);
-  padding: 120px 0;
-  .image {
-    img {
-      width: 100%;
-      max-width: 500px;
-      display: block;
-      margin: auto;
-    }
+section {
+  &.section {
+    padding: 80px 0 0 0;
   }
 }
 
-/* CSS */
-.button-86 {
+:root {
+  --color-black: "#000000";
+  --bg-first-color: #ecfdff;
+  --bg-secondary-color: #f8fbff;
+
+  --color-pink: #ff3368;
+}
+
+.main-btn {
   all: unset;
   width: 100px;
   height: 30px;
@@ -107,3 +105,6 @@ a {
 
 // Featured
 @import "featured";
+
+// Category Products
+@import "categoryProduct";

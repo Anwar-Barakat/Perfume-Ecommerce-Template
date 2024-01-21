@@ -1,0 +1,26 @@
+#category {
+  .card {
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+      .detail {
+        padding: 0 10px;
+      }
+    }
+    .detail {
+      transition: 0.3s all ease-in-out;
+      .add-to-cart {
+        color: var(--color-pink);
+        font-size: 1rem;
+      }
+      .add-to-wishlist {
+        color: var(--color-black);
+        font-size: 1.2rem;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+          color: var(--color-pink);
+        }
+      }
+    }
+  }
+}
