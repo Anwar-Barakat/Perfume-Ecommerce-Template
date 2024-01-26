@@ -1,3 +1,23 @@
 footer {
-  background: gray;
+  background: #121212;
+  .column {
+    margin-bottom: 2rem;
+    h5 {
+      margin-bottom: 1rem;
+    }
+    ul {
+      li {
+        margin-bottom: 1rem;
+        a {
+          color: #fff;
+        }
+      }
+    }
+    form {
+      input,
+      button {
+        padding: 10px;
+      }
+    }
+  }
 }

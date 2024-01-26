@@ -1,10 +1,12 @@
 .carousal {
   .card {
-    padding: 10px;
     cursor: pointer;
+    .detail {
+      padding: 10px;
+    }
     &:hover {
       .detail {
-        padding: 0 10px;
+        padding: 10px 20px;
       }
     }
     .detail {

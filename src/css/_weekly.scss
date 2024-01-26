@@ -1,33 +1,63 @@
 #weekly {
   background-color: var(--bg-first-color);
   margin-top: 2rem;
-  ul {
-    li {
-      display: inline-block;
-      font-size: 1em;
-      list-style-type: none;
-      padding: 1rem;
-      text-transform: uppercase;
-      text-align: center;
+  .image {
+    max-width: 500px;
+    margin: 0 auto 1rem;
+  }
+  .offer-content {
+    h2 {
+      font-size: 2em;
+      font-weight: bold;
     }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        display: inline-block;
+        font-size: 1em;
+        list-style-type: none;
+        padding: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
 
-    li span {
-      display: block;
-      font-size: 2rem;
+      li span {
+        display: block;
+        font-size: 2rem;
+      }
+    }
+    form {
+      input,
+      button {
+        padding: 1rem;
+      }
     }
   }
 }
 
 @media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
-  }
-
-  li {
-    font-size: calc(1.125rem * var(--smaller));
-  }
-
-  li span {
-    font-size: calc(3.375rem * var(--smaller));
+  #weekly {
+    .offer-content {
+      h2 {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      ul {
+        li {
+          font-size: 14px;
+          span {
+            font-size: 1.2rem;
+          }
+        }
+      }
+      form {
+        input,
+        button {
+          padding: 0.7rem;
+        }
+      }
+    }
   }
 }

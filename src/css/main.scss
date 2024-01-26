@@ -1,5 +1,20 @@
+:root {
+  --color-black: "#000000";
+  --bg-first-color: #ecfdff;
+  --bg-secondary-color: #f8fbff;
+  --color-pink: #ff3368;
+  --main-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  --head-font-family: "Arima", system-ui;
+  --main-font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--head-font-family);
+}
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--main-font-family);
   margin: 0;
   padding: 0;
 }
@@ -22,14 +37,6 @@ section {
   &.section {
     padding: 80px 0 0 0;
   }
-}
-
-:root {
-  --color-black: "#000000";
-  --bg-first-color: #ecfdff;
-  --bg-secondary-color: #f8fbff;
-
-  --color-pink: #ff3368;
 }
 
 .main-btn {
@@ -96,7 +103,9 @@ section {
     transform: translate(0, 5%);
   }
 }
-
+.card {
+  border-radius: 0;
+}
 // Header
 @import "header";
 
@@ -114,3 +123,6 @@ section {
 
 // Carousel
 @import "carousel";
+
+// Carousel
+@import "footer";
