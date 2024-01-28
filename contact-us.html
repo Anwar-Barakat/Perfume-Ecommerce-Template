@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfume E-commerce Shop Page</title>
+    <!-- Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@400;500;700&family=Roboto+Serif:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="src/css/plugins/owl.carousel.min.css" />
+    <link rel="stylesheet" href="src/css/plugins/owl.theme.default.min.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="src/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg fixed">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="src/images/logo.png" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-black active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item px-3 py-2" href="#"
+                        >Shop Category</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item px-3 py-2" href="#"
+                        >Product Detail</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#" aria-current="page"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-black"
+                    href="contact-us.html"
+                    aria-current="page"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+              <div class="d-flex gap-4">
+                <a href=""><i class="text-black fas fa-heart"></i></a>
+                <a href=""><i class="text-black fas fa-search"></i></a>
+                <a href=""><i class="text-black fas fa-shopping-bag"> </i></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="breadcrumb">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Featured Blog Post with Carousel -->
+    <div class="container my-4">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://via.placeholder.com/1296x500"
+              class="d-block w-100"
+              alt="https://via.placeholder.com/1296x500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://via.placeholder.com/1296x500"
+              class="d-block w-100"
+              alt="https://via.placeholder.com/1296x500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://via.placeholder.com/1296x500"
+              class="d-block w-100"
+              alt="https://via.placeholder.com/1296x500"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Start Footer -->
+    <footer class="footer text-white p-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 column">
+            <h5>Contact Us</h5>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Location: Dubai, UAE</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 column">
+            <h5>Top Products</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Product 1</a></li>
+              <li><a href="#">Product 2</a></li>
+              <li><a href="#">Product 3</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 column">
+            <h5>Subscribe</h5>
+            <p>Subscribe to our newsletter for updates</p>
+            <form class="d-flex">
+              <input
+                class="form-control rounded-0"
+                type="email"
+                placeholder="Your Email"
+                aria-label="Subscribe"
+              />
+              <button class="btn btn-primary rounded-0" type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="src/js/plugins/jquery.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="src/js/plugins/owl.carousel.min.js"></script>
+  </body>
+</html>
