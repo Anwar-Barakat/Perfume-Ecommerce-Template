@@ -157,6 +157,7 @@ section {
 .card {
   border-radius: 0;
 }
+
 // Header
 @import "header";
 
@@ -186,3 +187,7 @@ section {
 
 // Cart
 @import "cart";
+
+// Cart
+@import "single";
+
