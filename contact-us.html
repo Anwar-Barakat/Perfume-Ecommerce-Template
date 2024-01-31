@@ -86,28 +86,35 @@
                   <ul class="dropdown-menu">
                     <li>
                       <a class="dropdown-item px-3 py-2" href="shop.html"
-                        >Shop Category</a
+                        >Products List</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item px-3 py-2" href="#"
+                      <a
+                        class="dropdown-item px-3 py-2"
+                        href="singleProduct.html"
                         >Product Detail</a
                       >
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-black" href="#" aria-current="page"
-                    >Blog</a
+                  <a
+                    class="nav-link text-black"
+                    href="blog.html"
+                    aria-current="page"
                   >
+                    Blog
+                  </a>
                 </li>
                 <li class="nav-item">
                   <a
                     class="nav-link text-black"
                     href="contact-us.html"
                     aria-current="page"
-                    >Contact us</a
                   >
+                    Contact us
+                  </a>
                 </li>
                 <li class="nav-item">
                   <a
@@ -130,16 +137,12 @@
     </header>
     <!-- End Header -->
 
-    <div class="breadcrumb">
-      <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">
-              Contact Us
-            </li>
-          </ol>
-        </nav>
+    <div class="w-100 p-5 headerB mb-5">
+      <div class="text-center text-black">
+        <h1>Contact Us Page</h1>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, illo.
+        </p>
       </div>
     </div>
 
@@ -149,8 +152,11 @@
           <div class="form-holder">
             <div class="form-content">
               <div class="form-items">
-                <h3>Register Today</h3>
-                <p>Fill in the data below.</p>
+                <h3>Get in Touch</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  nihil inventore labore!.
+                </p>
                 <form class="requires-validation" novalidate>
                   <div class="col-md-12">
                     <input
@@ -181,30 +187,12 @@
                   </div>
 
                   <div class="col-md-12">
-                    <select class="form-select mt-3" required>
-                      <option selected disabled value="">Position</option>
-                      <option value="jweb">Junior Web Developer</option>
-                      <option value="sweb">Senior Web Developer</option>
-                      <option value="pmanager">Project Manager</option>
-                    </select>
-                    <div class="valid-feedback">You selected a position!</div>
-                    <div class="invalid-feedback">
-                      Please select a position!
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
+                    <textarea
                       class="form-control"
-                      type="password"
                       name="password"
-                      placeholder="Password"
+                      placeholder="Message"
                       required
-                    />
-                    <div class="valid-feedback">Password field is valid!</div>
-                    <div class="invalid-feedback">
-                      Password field cannot be blank!
-                    </div>
+                    ></textarea>
                   </div>
 
                   <div class="col-md-12 mt-3">
@@ -245,12 +233,6 @@
                     <label class="btn btn-sm btn-outline-secondary" for="secret"
                       >Secret</label
                     >
-                    <div class="valid-feedback mv-up">
-                      You selected a gender!
-                    </div>
-                    <div class="invalid-feedback mv-up">
-                      Please select a gender!
-                    </div>
                   </div>
 
                   <div class="form-check">
@@ -264,13 +246,10 @@
                     <label class="form-check-label"
                       >I confirm that all data are correct</label
                     >
-                    <div class="invalid-feedback">
-                      Please confirm that the entered data are all correct!
-                    </div>
                   </div>
 
                   <div class="form-button mt-3">
-                    <button id="submit" type="submit" class="btn btn-primary">
+                    <button id="submit" type="submit" class="btn btn-warning">
                       Register
                     </button>
                   </div>
@@ -310,7 +289,7 @@
                 placeholder="Your Email"
                 aria-label="Subscribe"
               />
-              <button class="btn btn-primary rounded-0" type="submit">
+              <button class="btn btn-warning rounded-0" type="submit">
                 Subscribe
               </button>
             </form>

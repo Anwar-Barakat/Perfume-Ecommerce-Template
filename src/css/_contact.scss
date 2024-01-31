@@ -62,7 +62,7 @@
 }
 
 .form-content input[type="text"],
-.form-content input[type="password"],
+.form-content textarea,
 .form-content input[type="email"],
 .form-content select {
   width: 100%;
@@ -114,7 +114,9 @@
   transition: none;
   margin-bottom: 14px;
 }
-
+.form-content textarea {
+  background-color: #eee;
+}
 .form-content textarea:hover,
 .form-content textarea:focus {
   border: 0;
@@ -125,14 +127,6 @@
 .mv-up {
   margin-top: -9px !important;
   margin-bottom: 8px !important;
-}
-
-.invalid-feedback {
-  color: #ff606e;
-}
-
-.valid-feedback {
-  color: #2acc80;
 }
 
 @media only screen and (min-width: 769px) {

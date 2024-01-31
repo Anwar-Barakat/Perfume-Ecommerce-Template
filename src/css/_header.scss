@@ -1,3 +1,32 @@
-#header {
+#header,
+.headerB {
   background-color: var(--bg-first-color);
+}
+
+.headerB {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767.5px) {
+  .headerB {
+    min-height: 200px;
+  }
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  border-radius: 0;
+}
+
+.active > .page-link,
+.page-link.active {
+  z-index: 3;
+  color: #121212;
+  background-color: #ffc008;
+  border-color: #ffc008;
+}
+.page-link {
+  color: var(--bs-black);
 }
