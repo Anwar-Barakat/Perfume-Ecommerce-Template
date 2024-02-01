@@ -127,7 +127,16 @@
               <div class="d-flex gap-4">
                 <a href=""><i class="text-black fas fa-heart"></i></a>
                 <a href=""><i class="text-black fas fa-search"></i></a>
-                <a href=""><i class="text-black fas fa-shopping-bag"> </i></a>
+                <a
+                  class=""
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasExample"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  href="javascript:void(0)"
+                >
+                  <i class="text-black fas fa-shopping-bag"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -135,6 +144,81 @@
       </div>
     </header>
     <!-- End Header -->
+
+    <!-- Start OffCanvas -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          Short Cart Menu
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col">
+            <!-- Product Table -->
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Product</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Product 1 -->
+                <tr>
+                  <td>
+                    <img
+                      src="https://via.placeholder.com/40x40"
+                      alt="img-fluid"
+                    />
+                  </td>
+                  <td>$19.99</td>
+                  <td>2</td>
+                  <td>$39.98</td>
+                </tr>
+
+                <!-- Product 2 -->
+                <tr>
+                  <td>
+                    <img
+                      src="https://via.placeholder.com/40x40"
+                      alt="img-fluid"
+                    />
+                  </td>
+                  <td>$29.99</td>
+                  <td>1</td>
+                  <td>$29.99</td>
+                </tr>
+
+                <!-- Add more rows for additional products as needed -->
+              </tbody>
+            </table>
+
+            <!-- Total Amount -->
+            <div
+              class="total-amount d-flex align-items-center justify-content-between"
+            >
+              <h5 class="fw-bold">Total Amount:</h5>
+              <p class="fw-bold mb-0 text-success">$69.97</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End OffCanvas -->
 
     <!-- Start Banner -->
     <section class="section" id="banner">
