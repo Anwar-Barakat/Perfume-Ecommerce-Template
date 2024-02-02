@@ -24,8 +24,8 @@
 .page-link.active {
   z-index: 3;
   color: #121212;
-  background-color: #ffc008;
-  border-color: #ffc008;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
 }
 .page-link {
   color: var(--bs-black);
@@ -33,6 +33,26 @@
 .navbar-toggler {
   border-radius: 0;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  border: 2px solid #ffc008;
-  background: #ffc008;
+  border: 2px solid var(--main-color);
+  background: var(--main-color);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--main-color);
+}
+
+@media (max-width: 991.5px) {
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    background-color: #ffc109;
+    color: #121212 !important;
+  }
+
+  .navbar-nav .nav-link {
+    border: 3px solid transparent;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+  }
 }

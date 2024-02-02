@@ -64,17 +64,13 @@
     <!-- Title for the HTML document -->
     <title>Product Details - Elegant Perfume</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap"
-      rel="stylesheet"
-    />
     <link
       href="https://fonts.googleapis.com/css2?family=Arima:wght@400;500;700&family=Roboto+Serif:wght@300;500;700&display=swap"
       rel="stylesheet"
@@ -92,10 +88,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
     />
 
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="src/css/plugins/owl.carousel.min.css" />
-    <link rel="stylesheet" href="src/css/plugins/owl.theme.default.min.css" />
-
     <!-- Custom Css -->
     <link rel="stylesheet" href="src/css/main.css" />
   </head>
@@ -106,7 +98,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg fixed">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="src/images/logo.png" alt="Logo" />
             </a>
             <button
@@ -185,7 +177,9 @@
               <div
                 class="d-flex gap-4 justify-content-between justify-content-sm-start"
               >
-                <a href=""><i class="text-black fas fa-heart"></i></a>
+                <a href="register.html"
+                  ><i class="text-black fas fa-sign-in-alt"></i
+                ></a>
                 <a href=""><i class="text-black fas fa-search"></i></a>
                 <a
                   class=""
@@ -300,6 +294,7 @@
                 data-bs-target="#mainImageModal"
                 data-type="image"
                 href="https://via.placeholder.com/700x400"
+                onclick="setMainImage('https://via.placeholder.com/700x400')"
               >
                 <img
                   class="fit"
@@ -703,13 +698,6 @@
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="src/js/plugins/jquery.min.js"></script>
-
-    <!-- Owl Carousel -->
-    <script src="src/js/plugins/owl.carousel.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       // JavaScript function to set the main image in the modal
       function setMainImage(imageUrl) {
