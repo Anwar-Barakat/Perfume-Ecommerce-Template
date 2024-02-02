@@ -2,11 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Perfume E-commerce Shop Page</title>
-    <!-- Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="Explore detailed information about our premium perfume collection. Find the perfect scent for every occasion with our luxurious fragrances."
+    />
+    <meta property="og:title" content="Product Details - Elegant Perfume" />
+    <meta
+      name="keywords"
+      content="perfume, fragrance, luxury, scent, beauty, product details"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+
+    <!-- Canonical URL for SEO -->
+    <link
+      rel="canonical"
+      href="https://www.yourperfumewebsite.com/product/elegant-perfume"
+    />
+    <!-- Open Graph meta tags -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="product" />
+    <meta property="og:title" content="Product Details - Elegant Perfume" />
+    <meta
+      property="og:description"
+      content="Explore detailed information about our premium perfume collection. Find the perfect scent for every occasion with our luxurious fragrances."
+    />
+    <meta
+      property="og:url"
+      content="https://www.yourperfumewebsite.com/product/elegant-perfume"
+    />
+    <meta
+      property="og:image"
+      content="https://www.yourperfumewebsite.com/images/elegant-perfume-og-image.jpg"
+    />
+    <meta property="og:image:width" content="450" />
+    <meta property="og:image:height" content="298" />
+    <meta property="og:site_name" content="Your Perfume Shop" />
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="Explore detailed information about our premium perfume collection. Find the perfect scent for every occasion with our luxurious fragrances."
+    />
+    <meta name="twitter:title" content="Product Details - Elegant Perfume" />
+    <meta
+      name="twitter:image"
+      content="https://www.yourperfumewebsite.com/images/elegant-perfume-twitter-card-image.jpg"
+    />
+
+    <!-- Favicon -->
+    <link
+      href="https://cdn-icons-png.flaticon.com/128/10139/10139795.png"
+      rel="icon"
+    />
+
+    <!-- Title for the HTML document -->
+    <title>Product Details - Elegant Perfume</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
       rel="stylesheet"
@@ -125,7 +182,9 @@
                   </a>
                 </li>
               </ul>
-              <div class="d-flex gap-4">
+              <div
+                class="d-flex gap-4 justify-content-between justify-content-sm-start"
+              >
                 <a href=""><i class="text-black fas fa-heart"></i></a>
                 <a href=""><i class="text-black fas fa-search"></i></a>
                 <a
@@ -223,7 +282,7 @@
 
     <div class="w-100 p-5 headerB">
       <div class="text-center text-black">
-        <h1>Shop Page</h1>
+        <h1>Product Detail Page</h1>
         <p class="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, illo.
         </p>
@@ -234,29 +293,31 @@
       <div class="container">
         <div class="row gx-5">
           <aside class="col-lg-6">
+            <!-- Gallery Container -->
             <div class="border mb-3 d-flex justify-content-center">
               <a
-                data-fslightbox="mygalley"
-                class=""
-                target="_blank"
+                data-bs-toggle="modal"
+                data-bs-target="#mainImageModal"
                 data-type="image"
                 href="https://via.placeholder.com/700x400"
               >
                 <img
-                  style="max-width: 100%; max-height: 100vh; margin: auto"
                   class="fit"
                   src="https://via.placeholder.com/700x400"
+                  id="mainImage"
                 />
               </a>
             </div>
+
+            <!-- Thumbnail Gallery -->
             <div class="d-flex justify-content-start mb-3">
               <a
-                data-fslightbox="mygalley"
-                class="border mx-1"
-                target="_blank"
+                data-bs-target="#mainImageModal"
+                data-bs-toggle="modal"
                 data-type="image"
                 href="https://via.placeholder.com/60x60"
-                class="item-thumb"
+                class="border mx-1 item-thumb"
+                onclick="setMainImage('https://via.placeholder.com/60x60')"
               >
                 <img
                   width="60"
@@ -264,66 +325,24 @@
                   src="https://via.placeholder.com/60x60"
                 />
               </a>
-              <a
-                data-fslightbox="mygalley"
-                class="border mx-1"
-                target="_blank"
-                data-type="image"
-                href="https://via.placeholder.com/60x60"
-                class="item-thumb"
-              >
-                <img
-                  width="60"
-                  height="60"
-                  class=""
-                  src="https://via.placeholder.com/60x60"
-                />
-              </a>
-              <a
-                data-fslightbox="mygalley"
-                class="border mx-1"
-                target="_blank"
-                data-type="image"
-                href="https://via.placeholder.com/60x60"
-                class="item-thumb"
-              >
-                <img
-                  width="60"
-                  height="60"
-                  class=""
-                  src="https://via.placeholder.com/60x60"
-                />
-              </a>
-              <a
-                data-fslightbox="mygalley"
-                class="border mx-1"
-                target="_blank"
-                data-type="image"
-                href="https://via.placeholder.com/60x60"
-                class="item-thumb"
-              >
-                <img
-                  width="60"
-                  height="60"
-                  class=""
-                  src="https://via.placeholder.com/60x60"
-                />
-              </a>
-              <a
-                data-fslightbox="mygalley"
-                class="border mx-1"
-                target="_blank"
-                data-type="image"
-                href="https://via.placeholder.com/60x60"
-                class="item-thumb"
-              >
-                <img
-                  width="60"
-                  height="60"
-                  class=""
-                  src="https://via.placeholder.com/60x60"
-                />
-              </a>
+              <!-- Add more thumbnail links with different href and onclick attributes -->
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="mainImageModal"
+              tabindex="-1"
+              aria-labelledby="mainImageModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img class="max-modal-image" id="modalMainImage" />
+                  </div>
+                </div>
+              </div>
             </div>
             <!-- thumbs-wrap.// -->
             <!-- gallery-wrap .end// -->
@@ -450,7 +469,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -461,9 +480,9 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
+          </a>
           <div class="tag bg-red">sale</div>
-          <div class="title pt-4 pb-1">Winter Sweater</div>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -474,7 +493,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -485,9 +504,9 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
+          </a>
           <div class="tag bg-black">out of stock</div>
-          <div class="title pt-4 pb-1">Denim Dresses</div>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -498,7 +517,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -509,9 +528,9 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
+          </a>
           <div class="tag bg-green">new</div>
-          <div class="title pt-4 pb-1">Empire Waist Dresses</div>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -522,7 +541,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -533,8 +552,8 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
-          <div class="title pt-4 pb-1">Pinafore Dresses</div>
+          </a>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -547,7 +566,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -558,9 +577,9 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
+          </a>
           <div class="tag bg-red">sale</div>
-          <div class="title pt-4 pb-1">Winter Sweater</div>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -571,7 +590,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -582,9 +601,9 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
+          </a>
           <div class="tag bg-black">out of stock</div>
-          <div class="title pt-4 pb-1">Denim Dresses</div>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -595,7 +614,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -606,8 +625,8 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
-          <div class="title pt-4 pb-1">Empire Waist Dresses</div>
+          </a>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -618,7 +637,7 @@
         <div
           class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item"
         >
-          <div class="product">
+          <a href="singleProduct.html" class="product">
             <img src="https://via.placeholder.com/306x350" alt="" />
             <ul
               class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -629,9 +648,9 @@
               <li class="icon mx-3"><span class="far fa-heart"></span></li>
               <li class="icon"><span class="fas fa-shopping-bag"></span></li>
             </ul>
-          </div>
+          </a>
           <div class="tag bg-green">new</div>
-          <div class="title pt-4 pb-1">Pinafore Dresses</div>
+          <div class="title pt-4 pb-1">Product Title</div>
           <div class="d-flex align-content-center justify-content-center">
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
             <span class="fas fa-star"></span> <span class="fas fa-star"></span>
@@ -689,5 +708,13 @@
 
     <!-- Owl Carousel -->
     <script src="src/js/plugins/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // JavaScript function to set the main image in the modal
+      function setMainImage(imageUrl) {
+        document.getElementById("modalMainImage").src = imageUrl;
+      }
+    </script>
   </body>
 </html>

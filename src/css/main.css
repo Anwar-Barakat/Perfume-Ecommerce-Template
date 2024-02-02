@@ -9,6 +9,10 @@
   --main-font-family: "Montserrat", sans-serif;
 }
 
+a {
+  color: var(--color-black);
+}
+
 h1,
 h2 {
   font-family: var(--head-font-family);
@@ -188,6 +192,13 @@ section.section {
 
 .page-link {
   color: var(--bs-black);
+}
+
+.navbar-toggler {
+  border-radius: 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffc008;
+  background: #ffc008;
 }
 
 #banner {
@@ -400,6 +411,11 @@ footer .column form button {
   box-shadow: 0px 25px 70px rgba(0, 0, 0, 0.15);
 }
 
+.form-check-input:checked {
+  background-color: #ffc008;
+  border-color: #ffc008;
+}
+
 .form-holder {
   display: flex;
   flex-direction: column;
@@ -536,11 +552,19 @@ footer .column form button {
     font-size: 1rem;
   }
 }
+.max-modal-image {
+  max-width: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+  display: block;
+}
+
 .navbar-nav .nav-link {
   color: #000 !important;
   padding: 0.5rem 0rem !important;
   border-color: transparent;
-  margin-left: 1.5rem;
   transition: none;
 }
 
@@ -598,7 +622,7 @@ footer .column form button {
 }
 
 .container .product-item .product .icons .icon:hover {
-  background-color: #b71c1c;
+  background-color: #ffc109;
   color: #fff;
 }
 
@@ -660,19 +684,18 @@ footer .column form button {
 }
 
 .bg-red {
-  background-color: #bb3535;
+  background-color: #ffc109;
   color: #fff;
 }
 
 @media (max-width: 767.5px) {
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link:hover {
-    background-color: #b71c1c;
-    color: #fff !important;
+    background-color: #ffc109;
+    color: #121212 !important;
   }
   .navbar-nav .nav-link {
     border: 3px solid transparent;
-    margin: 0.8rem 0;
     display: flex;
     border-radius: 10px;
     justify-content: center;

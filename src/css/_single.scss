@@ -1,8 +1,14 @@
+.max-modal-image {
+  max-width: 500px;
+  width: 100%;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
 .navbar-nav .nav-link {
   color: #000 !important;
   padding: 0.5rem 0rem !important;
   border-color: transparent;
-  margin-left: 1.5rem;
   transition: none;
 }
 
@@ -59,7 +65,7 @@
 }
 
 .container .product-item .product .icons .icon:hover {
-  background-color: #b71c1c;
+  background-color: #ffc109;
   color: #fff;
 }
 
@@ -121,20 +127,19 @@
 }
 
 .bg-red {
-  background-color: #bb3535;
+  background-color: #ffc109;
   color: #fff;
 }
 
 @media (max-width: 767.5px) {
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link:hover {
-    background-color: #b71c1c;
-    color: #fff !important;
+    background-color: #ffc109;
+    color: #121212 !important;
   }
 
   .navbar-nav .nav-link {
     border: 3px solid transparent;
-    margin: 0.8rem 0;
     display: flex;
     border-radius: 10px;
     justify-content: center;

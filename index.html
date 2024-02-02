@@ -2,8 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Perfume E-commerce Shop Page</title>
+    <meta
+      name="description"
+      content="Explore a world of exquisite fragrances with our premium perfume collection. Find the perfect scent for every occasion."
+    />
+    <meta property="og:title" content="Luxury Perfumes" />
+    <meta name="keywords" content="perfume, fragrance, luxury, scent, beauty" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+
+    <!-- Canonical URL for SEO -->
+    <link rel="canonical" href="https://www.yourperfumewebsite.com/" />
+    <!-- Open Graph meta tags -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Luxury Perfumes" />
+    <meta
+      property="og:description"
+      content="Explore a world of exquisite fragrances with our premium perfume collection. Find the perfect scent for every occasion."
+    />
+    <meta property="og:url" content="https://www.yourperfumewebsite.com/" />
+    <meta
+      property="og:image"
+      content="https://www.yourperfumewebsite.com/images/og-image.jpg"
+    />
+    <meta property="og:image:width" content="450" />
+    <meta property="og:image:height" content="298" />
+    <meta property="og:site_name" content="Your Perfume Shop" />
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="Explore a world of exquisite fragrances with our premium perfume collection. Find the perfect scent for every occasion."
+    />
+    <meta name="twitter:title" content="Luxury Perfumes" />
+    <meta
+      name="twitter:image"
+      content="https://www.yourperfumewebsite.com/images/twitter-card-image.jpg"
+    />
+
+    <!-- Favicon -->
+    <link
+      href="https://cdn-icons-png.flaticon.com/128/10139/10139795.png"
+      rel="icon"
+    />
+
+    <title>Luxury Perfumes - Find Your Signature Scent</title>
     <!-- Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,7 +97,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg fixed">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="src/images/logo.png" alt="Logo" />
             </a>
             <button
@@ -124,7 +173,9 @@
                   </a>
                 </li>
               </ul>
-              <div class="d-flex gap-4">
+              <div
+                class="d-flex gap-4 justify-content-between justify-content-sm-start"
+              >
                 <a href=""><i class="text-black fas fa-heart"></i></a>
                 <a href=""><i class="text-black fas fa-search"></i></a>
                 <a
@@ -226,7 +277,7 @@
         <div class="owl-carousel owl-theme" id="main-banner">
           <div class="item">
             <div class="row align-items-center justify-space-between">
-              <div class="col-lg-6">
+              <div class="col-lg-6 mb-4">
                 <div class="content">
                   <h1 class="fw-bold text-black mb-4">Select Your Perfume</h1>
                   <p class="fs-6 text-secondary lh-lg mb-4">
@@ -234,7 +285,7 @@
                     accusantium iste atque deleniti! Vero voluptas ratione vitae
                     accusamus soluta. Ea.
                   </p>
-                  <a href="" class="main-btn">Shop Now</a>
+                  <a href="shop.html" class="main-btn">Shop Now</a>
                 </div>
               </div>
               <div class="col-lg-6">
@@ -301,7 +352,7 @@
                         elit.
                       </h3>
                     </div>
-                    <a href="" class="featured-btn text-warning"
+                    <a href="shop.html" class="featured-btn text-warning"
                       >Explore Now <i class="fas fa-play"></i
                     ></a>
                   </div>
@@ -330,7 +381,7 @@
                         Latest Man Perfume
                       </h3>
                     </div>
-                    <a href="" class="featured-btn text-warning"
+                    <a href="shop.html" class="featured-btn text-warning"
                       >Explore Now <i class="fas fa-play"></i
                     ></a>
                   </div>
@@ -361,7 +412,7 @@
                         Latest Man Perfume
                       </h3>
                     </div>
-                    <a href="" class="featured-btn text-warning"
+                    <a href="shop.html" class="featured-btn text-warning"
                       >Explore Now <i class="fas fa-play"></i
                     ></a>
                   </div>
@@ -391,7 +442,7 @@
                         elit.
                       </h3>
                     </div>
-                    <a href="" class="featured-btn text-warning"
+                    <a href="shop.html" class="featured-btn text-warning"
                       >Explore Now <i class="fas fa-play"></i
                     ></a>
                   </div>
@@ -424,7 +475,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -433,11 +484,13 @@
                   <span class="fas fa-expand-arrows-alt"></span>
                 </li>
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
-                <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+                <li class="icon">
+                  <span class="fas fa-shopping-bag"></span>
+                </li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -450,7 +503,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -461,9 +514,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-green">new</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -476,7 +529,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -487,9 +540,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -502,7 +555,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -513,9 +566,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-green">new</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -528,7 +581,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -539,9 +592,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-black">out of stock</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -554,7 +607,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -565,9 +618,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -580,7 +633,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -591,9 +644,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -606,7 +659,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -617,9 +670,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-black">out of stock</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -685,7 +738,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -696,9 +749,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -711,7 +764,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -722,9 +775,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-green">new</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -737,7 +790,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -748,9 +801,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -763,7 +816,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -774,9 +827,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-green">new</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -789,7 +842,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -800,9 +853,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-black">out of stock</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -815,7 +868,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -826,9 +879,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -841,7 +894,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -852,9 +905,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-red">sale</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
@@ -867,7 +920,7 @@
           <div
             class="item card d-flex flex-column align-items-center justify-content-center product-item"
           >
-            <div class="product">
+            <a href="singleProduct.html" class="product">
               <img src="https://via.placeholder.com/306x350" alt="" />
               <ul
                 class="d-flex align-items-center justify-content-center list-unstyled icons"
@@ -878,9 +931,9 @@
                 <li class="icon mx-3"><span class="far fa-heart"></span></li>
                 <li class="icon"><span class="fas fa-shopping-bag"></span></li>
               </ul>
-            </div>
+            </a>
             <div class="tag bg-black">out of stock</div>
-            <div class="title pt-4 pb-1">Winter Sweater</div>
+            <div class="title pt-4 pb-1">Product Title</div>
             <div class="d-flex align-content-center justify-content-center">
               <span class="fas fa-star"></span>
               <span class="fas fa-star"></span>
