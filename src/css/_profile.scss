@@ -20,7 +20,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #038edc;
+  background-color: var(--main-color);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,13 +41,13 @@
 }
 
 .nav-tabs-custom .nav-item .nav-link.active {
-  color: #038edc;
+  color: var(--main-color);
 }
 .nav-tabs-custom .nav-item .nav-link {
   border: none;
 }
 .nav-tabs-custom .nav-item .nav-link.active {
-  color: #038edc;
+  color: var(--main-color);
 }
 
 .avatar-group {
@@ -107,7 +107,7 @@
 
 .nav-tabs-custom .nav-item .nav-link::after {
   content: "";
-  background: #038edc;
+  background: var(--main-color);
   height: 2px;
   position: absolute;
   width: 100%;
@@ -180,5 +180,5 @@
   left: -26px;
   top: 3px;
   background-color: #fff;
-  border: 2px solid #038edc;
+  border: 2px solid var(--main-color);
 }

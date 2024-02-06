@@ -6,7 +6,7 @@
   --bg-secondary-color: #f8fbff;
   --color-pink: #ff3368;
   --main-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  --head-font-family: "Roboto", system-ui;
+  --head-font-family: "Arima", system-ui;
   --main-font-family: "Roboto", sans-serif;
 }
 
@@ -149,4 +149,70 @@ section {
 .image > img {
   max-width: 300px;
   margin: auto;
+}
+
+.main-header {
+  padding: 12px 48px;
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 3rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 470px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 470px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 470px;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 470px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-header {
+    font-size: 2em;
+  }
 }

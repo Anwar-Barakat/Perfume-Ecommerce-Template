@@ -6,7 +6,7 @@
   --bg-secondary-color: #f8fbff;
   --color-pink: #ff3368;
   --main-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  --head-font-family: "Roboto", system-ui;
+  --head-font-family: "Arima", system-ui;
   --main-font-family: "Roboto", sans-serif;
 }
 
@@ -151,6 +151,37 @@ section.section {
   margin: auto;
 }
 
+.main-header {
+  padding: 12px 48px;
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 3rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 470px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .main-header {
+    font-size: 2em;
+  }
+}
 #header,
 .headerB {
   background-color: var(--bg-first-color);
@@ -194,6 +225,10 @@ section.section {
 .dropdown-item.active,
 .dropdown-item:active {
   background-color: var(--main-color);
+}
+
+.nav-link {
+  color: gray;
 }
 
 @media (max-width: 991.5px) {
@@ -725,7 +760,7 @@ footer .column form button {
 
 .avatar-title {
   align-items: center;
-  background-color: #038edc;
+  background-color: var(--main-color);
   color: #fff;
   display: flex;
   font-weight: 500;
@@ -743,7 +778,7 @@ footer .column form button {
 }
 
 .nav-tabs-custom .nav-item .nav-link.active {
-  color: #038edc;
+  color: var(--main-color);
 }
 
 .nav-tabs-custom .nav-item .nav-link {
@@ -751,7 +786,7 @@ footer .column form button {
 }
 
 .nav-tabs-custom .nav-item .nav-link.active {
-  color: #038edc;
+  color: var(--main-color);
 }
 
 .avatar-group {
@@ -806,7 +841,7 @@ footer .column form button {
 
 .nav-tabs-custom .nav-item .nav-link::after {
   content: "";
-  background: #038edc;
+  background: var(--main-color);
   height: 2px;
   position: absolute;
   width: 100%;
@@ -877,7 +912,7 @@ footer .column form button {
   left: -26px;
   top: 3px;
   background-color: #fff;
-  border: 2px solid #038edc;
+  border: 2px solid var(--main-color);
 }
 
 .box-1 {
