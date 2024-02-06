@@ -474,9 +474,8 @@
               </div>
 
               <hr />
-
-              <div class="row mb-4">
-                <div class="col-md-4 col-6">
+              <div class="d-flex gap-2 flex-wrap align-items-center mb-4">
+                <div class="">
                   <label class="mb-2">Size</label>
                   <select
                     class="form-select border border-secondary rounded-0"
@@ -488,9 +487,9 @@
                   </select>
                 </div>
                 <!-- col.// -->
-                <div class="col-md-4 col-6 mb-3">
+                <div class="">
                   <label class="mb-2 d-block">Quantity</label>
-                  <div class="input-group mb-3" style="width: 170px">
+                  <div class="input-group" style="width: 170px">
                     <button
                       class="btn btn-white rounded-0 border border-secondary px-3"
                       type="button"
@@ -505,6 +504,7 @@
                       placeholder="14"
                       aria-label="Example text with button addon"
                       aria-describedby="button-addon1"
+                      value="14"
                     />
                     <button
                       class="btn btn-white border rounded-0 border-secondary px-3"
@@ -517,18 +517,20 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="btn btn-warning shadow-0 rounded-0">
-                Buy now
-              </a>
-              <a href="#" class="btn btn-primary shadow-0 rounded-0">
-                <i class="me-1 fa fa-shopping-basket"></i> Add to cart
-              </a>
-              <a
-                href="#"
-                class="btn btn-light border border-secondary icon-hover px-3 rounded-0"
-              >
-                <i class="me-1 fa fa-heart fa-lg"></i> Add to wishlist
-              </a>
+              <div class="d-flex gap-2 flex-wrap align-items-center">
+                <a href="#" class="btn btn-warning shadow-0 rounded-0">
+                  Buy now
+                </a>
+                <a href="#" class="btn btn-primary shadow-0 rounded-0">
+                  <i class="me-1 fa fa-shopping-basket"></i> Add to cart
+                </a>
+                <a
+                  href="#"
+                  class="btn btn-light border border-secondary icon-hover px-3 rounded-0"
+                >
+                  <i class="me-1 fa fa-heart fa-lg"></i> Add to wishlist
+                </a>
+              </div>
             </div>
           </main>
         </div>

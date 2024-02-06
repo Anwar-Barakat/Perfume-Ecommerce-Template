@@ -85,6 +85,14 @@ section {
     padding: 13px 50px 13px;
   }
 }
+@media (max-width: 768px) {
+  .main-btn {
+    padding: 13px 50px 13px;
+  }
+  #main-carousel {
+    display: none;
+  }
+}
 
 .default-btn {
   appearance: none;
