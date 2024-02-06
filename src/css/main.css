@@ -171,10 +171,10 @@ section.section {
     background-position: 0;
   }
   60% {
-    background-position: 470px;
+    background-position: 400px;
   }
   100% {
-    background-position: 470px;
+    background-position: 400px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -368,6 +368,8 @@ section.section {
 #weekly {
   background-color: var(--bg-first-color);
   margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 3rem !important;
 }
 #weekly .image {
   max-width: 500px;
@@ -400,6 +402,9 @@ section.section {
 }
 
 @media all and (max-width: 768px) {
+  #weekly {
+    text-align: center !important;
+  }
   #weekly .offer-content h2 {
     font-size: 1.2rem;
     text-align: center;
